@@ -1,15 +1,10 @@
+Here's a template for your GitHub repository's `README.md` file. It's tailored for a Java project that demonstrates the features of Java 23:
+
+---
+
 # Java 23 Features Demo 🚀
 
 Welcome to the **Java 23 Features Demo** repository! This project showcases the latest enhancements in Java 23, including updates in concurrency, I/O methods, streams, and more. The code examples here are designed to help you understand and implement these new features in your projects.
-
-## Table of Contents
-
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -40,4 +35,30 @@ To run the code in this repository, you will need:
    ```bash
    git clone https://github.com/your-username/java23features.git
    cd java23features
-2. Dont forget to `--enable-preview --source=23` before running any program.
+   ```
+
+2. Compile and run the examples:
+   ```bash
+   javac src/*.java
+   java src/Main
+   ```
+
+   Alternatively, if you use Maven:
+   ```bash
+   mvn compile exec:java
+   ```
+
+## Usage
+
+This repository is organized into different examples for each Java 23 feature:
+
+- Navigate to the `src/` directory to find individual classes demonstrating the features.
+- Each class has a `main` method that you can run to see the output.
+- Detailed comments are provided in each file to explain how the new features work.
+
+### Example
+
+Here’s how you can run the **Structured Concurrency** example:
+
+```bash
+javac src/StructuredConcurrencyExample.java
